@@ -9,7 +9,7 @@ const ToasContainer: React.FC = () => {
       <Toast hasDescription>
         <FiAlertCircle size={20} />
         <div>
-          <strong>Acontceu um erro</strong>
+          <strong>Aconteceu um erro</strong>
           <p>Não foi possível fazer login na aplicação</p>
         </div>
 
@@ -20,7 +20,7 @@ const ToasContainer: React.FC = () => {
       <Toast type="success" hasDescription={false}>
         <FiAlertCircle size={20} />
         <div>
-          <strong>Acontceu um erro</strong>
+          <strong>Aconteceu um erro</strong>
         </div>
 
         <button type="button">
@@ -30,7 +30,7 @@ const ToasContainer: React.FC = () => {
       <Toast type="error" hasDescription>
         <FiAlertCircle size={20} />
         <div>
-          <strong>Acontceu um erro</strong>
+          <strong>Aconteceu um erro</strong>
           <p>Não foi possível fazer login na aplicação</p>
         </div>
 
