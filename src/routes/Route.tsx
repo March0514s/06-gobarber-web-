@@ -1,8 +1,8 @@
 import React from 'react';
 import {
-  Redirect,
   Route as ReactDOMRoute,
   RouteProps as ReactDOMRouteProps,
+  Redirect,
 } from 'react-router-dom';
 
 import { useAuth } from '../hooks/auth';
@@ -22,7 +22,7 @@ const Route: React.FC<RouteProps> = ({
   return (
     <ReactDOMRoute
       {...rest}
-      render={(location) => {
+      render={({ location }) => {
         return isPrivate === !!user ? (
           <Component />
         ) : (
